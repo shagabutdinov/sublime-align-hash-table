@@ -1,0 +1,17 @@
+[
+  {
+    "keys": ["ctrl+m", "ctrl+a"],
+    "command": "align_hash_table",
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["ctrl+m", "a"],
+    "command": "unalign_hash_table",
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  }
+]

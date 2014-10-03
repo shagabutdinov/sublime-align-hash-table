@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "AlignHashTable: Align",
+    "command": "align_hash_table"
+  },
+
+  {
+    "caption": "AlignHashTable: Unalign",
+    "command": "unalign_hash_table"
+  }
+]
