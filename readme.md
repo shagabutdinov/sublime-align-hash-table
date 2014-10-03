@@ -52,3 +52,8 @@ that if you have nested hash tables only table under cursor on bottom of nesting
 |--------------------|--------------------|-------------------------|
 | Align hash table   | ctrl+m, ctrl+a     | AlignHashTable: align   |
 | Unalign hash table | ctrm+m, a          | AlignHashTable: unalign |
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-statement
