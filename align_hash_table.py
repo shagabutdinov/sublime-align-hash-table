@@ -1,7 +1,14 @@
 import sublime
 import sublime_plugin
-from Statement import statement
 import re
+
+try:
+  from Statement import statement
+except ImportError:
+  sublime.error_message("Dependency import failed; please read readme for " +
+   "AlignHashTable plugin for installation instructions; to disable this " +
+   "message remove this plugin")
+
 
 class AlignHashTable(sublime_plugin.TextCommand):
   def run(self, edit):

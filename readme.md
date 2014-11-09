@@ -6,7 +6,7 @@ php).
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-align-hash-table/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/align_hash_table.gif "Demo")
 
 ### Installation
 
@@ -56,4 +56,4 @@ that if you have nested hash tables only table under cursor on bottom of nesting
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-statement
+* [statement](https://github.com/shagabutdinov/sublime-statement)

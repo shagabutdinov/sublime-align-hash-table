@@ -3,6 +3,7 @@
     "keys": ["ctrl+m", "ctrl+a"],
     "command": "align_hash_table",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -11,6 +12,7 @@
     "keys": ["ctrl+m", "a"],
     "command": "unalign_hash_table",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   }
